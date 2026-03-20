@@ -184,17 +184,7 @@ clarix-dashboard/
     └── routes/               # API routes
 ```
 
----
 
-## Screenshots
-
-### Dashboard
-![Dashboard](https://via.placeholder.com/800x400?text=Clarix+Dashboard)
-
-### Customer Orders
-![Orders](https://via.placeholder.com/800x400?text=Customer+Orders)
-
----
 
 ## Author
 
