@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Mobile widget fixes */
+@media (max-width: 768px) {
+  .react-grid-layout {
+    min-height: 100px !important;
+  }
+
+  .react-grid-item {
+    min-height: 200px !important;
+  }
+}

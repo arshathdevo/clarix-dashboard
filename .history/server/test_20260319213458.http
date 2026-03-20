@@ -1,0 +1,45 @@
+### Register User
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+  "name": "Test User",
+  "email": "test@gmail.com",
+  "password": "123456"
+}
+
+### Login User
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "test@gmail.com",
+  "password": "123456"
+}
+
+### Create Order
+POST http://localhost:5000/api/orders
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJlZWUwODA3OWFlMDI5ZmIyZDNiYyIsImlhdCI6MTc3MzkzNjE4NSwiZXhwIjoxNzc0NTQwOTg1fQ.em_VykUmPsJPhwaL4S0HroqJQ-iTrM0NINEtaO4Ub4Y
+
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john@example.com",
+  "phone": "1234567890",
+  "streetAddress": "123 Main St",
+  "city": "New York",
+  "state": "NY",
+  "postalCode": "10001",
+  "country": "United States",
+  "product": "Fiber Internet 300 Mbps",
+  "quantity": 2,
+  "unitPrice": 49.99,
+  "totalAmount": 99.98,
+  "status": "Pending",
+  "createdBy": "Mr. Michael Harris"
+}
+
+### Get All Orders
+GET http://localhost:5000/api/orders
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJlZWUwODA3OWFlMDI5ZmIyZDNiYyIsImlhdCI6MTc3MzkzNjE4NSwiZXhwIjoxNzc0NTQwOTg1fQ.em_VykUmPsJPhwaL4S0HroqJQ-iTrM0NINEtaO4Ub4Y
