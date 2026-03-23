@@ -188,7 +188,7 @@ clarix-dashboard/
 
 ## Author
 
-Built with ❤️ by Arshath for Halleyx Software Interview
+Built with ❤️ by Arshath for Halleyx.
 
 ## License
 
